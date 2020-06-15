@@ -1,1 +1,21 @@
-
+<form>
+  <fieldset>
+  
+          <input type="text" placeholder="first and last name"  required /> <br />
+          <input type="email" placeholder="email" />  <br />
+          
+            <legend>Topics</legends>
+            <p>
+              <select>
+               <option value="1">Add business</option>
+                <option value="2">update business</option>
+                <option value="3">suggestions</option>
+                <option value="4">contact us</option>
+               </select>
+            </p> <br />
+            
+          <input type="text" placeholder="description" required /> <br />
+          <button type="submit" value="submit"/>  
+          
+    <fieldset>
+</form>
