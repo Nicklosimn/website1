@@ -1,9 +1,9 @@
 <form>
   <fieldset>
   
-          <input type="text" placeholder="first and last name"  required /> <br />
+          <input type="text" placeholder="name"  required /> <br />
           <input type="email" placeholder="email" />  <br />
-          
+         
             <legend>Topics</legends>
             <p>
               <select>
