@@ -1,6 +1,6 @@
 <form>
   <fieldset>
-          <input type="text" placeholder="name"  required /> <br />
+          <input type="text" placeholder="name" required /> <br />
           <input type="email" placeholder="email" />  <br />         
             <legend>Topics</legend>
             <p>
@@ -12,7 +12,6 @@
                </select>
             </p> <br />            
           <textarea required></textarea> <br />
-          <button type="submit" value="submit"/>  
-          
+          <button type="submit" value="submit"/>         
     </fieldset>
 </form>
