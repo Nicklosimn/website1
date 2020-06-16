@@ -1,10 +1,8 @@
 <form>
   <fieldset>
-  
           <input type="text" placeholder="name"  required /> <br />
-          <input type="email" placeholder="email" />  <br />
-         
-            <legend>Topics</legends>
+          <input type="email" placeholder="email" />  <br />         
+            <legend>Topics</legend>
             <p>
               <select>
                <option value="1">Add business</option>
@@ -12,10 +10,9 @@
                 <option value="3">suggestions</option>
                 <option value="4">contact us</option>
                </select>
-            </p> <br />
-            
-          <input type="text" placeholder="description" required /> <br />
+            </p> <br />            
+          <textarea required></textarea> <br />
           <button type="submit" value="submit"/>  
           
-    <fieldset>
+    </fieldset>
 </form>
