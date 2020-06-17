@@ -1,18 +1,28 @@
-<?php
-  
+<DOCTYPE html>
+<html>
+<head>
 
 
 
 
+<style>
+
+  textarea {
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  outline:none;
+  }
+
+
+</style>
+
+<head>
+
+<body>
 
 
 
-
-
-
-
-
->
 
 <form>
   <fieldset>
@@ -27,7 +37,13 @@
                 <option value="4">contact us</option>
                </select>
             </p> <br />            
-          <textarea required></textarea> <br />
-          <button type="submit" value="submit"/>         
+          <textarea   extarea><br />
+          <button type="submit" value="submit">submit</button>
     </fieldset>
 </form>
+
+
+
+
+</body>
+</html>
