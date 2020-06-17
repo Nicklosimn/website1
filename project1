@@ -37,7 +37,7 @@
                 <option value="4">contact us</option>
                </select>
             </p> <br />            
-          <textarea   extarea><br />
+          <textarea  placeholder="description" required> </textarea><br />
           <button type="submit" value="submit">submit</button>
     </fieldset>
 </form>
