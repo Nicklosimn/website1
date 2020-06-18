@@ -12,11 +12,16 @@
   border-left:none;
   border-right:none;
   outline:none;
+  overflow:auto;
+  }
+  textarea:hover {
+  color:gray;
   }
 
 
 </style>
-
+<script type="text/javascript" src="jquery.js"></script>
+<script>$("textarea").resizable();</script>
 <head>
 
 <body>
@@ -28,7 +33,7 @@
   <fieldset>
           <input type="text" placeholder="name" required /> <br />
           <input type="email" placeholder="email" />  <br />         
-            <legend>Topics</legend>
+            <label>Topics</label>
             <p>
               <select>
                <option value="1">Add business</option>
@@ -37,7 +42,8 @@
                 <option value="4">contact us</option>
                </select>
             </p> <br />            
-          <textarea  placeholder="description" required> </textarea><br />
+          <textarea placeholder="description"  value="description" required="" style="margin: 0px; width: 330px; height: 25px;">
+ </textarea><br />
           <button type="submit" value="submit">submit</button>
     </fieldset>
 </form>
